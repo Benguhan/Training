@@ -1,0 +1,25 @@
+body{
+    background-image: url(/images/white-cloud-blue.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    background: linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    background: linear-gradient(to left, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000;
+    font-family: "consalas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    border-style: solid;
+    border-color: pink;
+}
