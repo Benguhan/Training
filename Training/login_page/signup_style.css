@@ -7,7 +7,7 @@ body {
     background-size: cover;
 }
 
-.login_box {
+.signup_box {
     max-width: 350px;
     margin: auto;
     padding: 20px;
@@ -19,6 +19,39 @@ body {
 img {
     width: 100%;
     height: min-content;
+}
+
+.fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fb button {
+   
+    width: 350px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: grey;
+    font-size: 14px;
+}
+
+hr {
+    margin: 30px 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
 }
 
 .form {
@@ -39,58 +72,12 @@ img {
     background-color: #3897f0;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     padding: 10px;
     font-size: 14px;
 }
 
-.or {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    color: grey;
-    font-size: 14px;
-}
-
-hr {
-    margin: 30px 0;
-    width: 100%;
-    border-top: 1px solid #ccc;
-}
-
-.fb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.fb button {
-    color: #3b5998;
-    border: none;
-    background-color: #fff;
-    font-size: 14px;
-}
-
-.forgot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: #3b5998;
-    font-size: 14px;
-
-}
-
-.forgot a {
-    text-decoration: none;
-    color: #3b5998;
-    padding: 15px;
-    font-size: 12px;
-}
-
-.signup {
+.login {
     max-width: 350px;
     margin: auto;
     padding: 20px;
@@ -99,9 +86,5 @@ hr {
     font-size: 14px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.signup a {
-    text-decoration: none;
+    align-items: center;   
 }
