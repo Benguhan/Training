@@ -1,0 +1,24 @@
+a:link {
+    color: #FF0000;
+}
+a:visited {
+    color: #656565;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: #0000FF;
+}
+button:hover {
+    background-color: #909090;
+}
+button:active {
+    background-color: #FFF;
+}
+li:nth-child(odd) {
+    background-color: yellow;
+}
+li:hover {
+    background-color: #909090;
+}   
